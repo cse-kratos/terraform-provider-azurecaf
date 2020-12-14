@@ -354,7 +354,7 @@ This is the current compreheensive status of the implemented resources in the pr
 |azurerm_frontdoor | ✔ |
 |azurerm_frontdoor_custom_https_configuration | ❌ |
 |azurerm_frontdoor_firewall_policy | ✔ |
-|azurerm_function_app | ❌ |
+|azurerm_function_app | ✔ |
 |azurerm_function_app_host_keys | ❌ |
 |azurerm_function_app_slot | ❌ |
 |azurerm_hdinsight_cluster | ❌ |
