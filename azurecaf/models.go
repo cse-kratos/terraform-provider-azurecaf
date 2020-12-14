@@ -148,6 +148,6 @@ var ResourcesMapping = map[string]ResourceStructure{
 	"azurerm_windows_virtual_machine_windows": Resources["vmw"],
 	"azurerm_virtual_network":                 Resources["vnet"],
 	"azurerm_integration_service_environment": Resources["ise"],
-	"azurerm_logic_app_integration_account":   Resources["laia"],
-	"azurerm_logic_app_workflow":              Resources["law"],
+	"azurerm_logic_app_integration_account":   Resources["ia"],
+	"azurerm_logic_app_workflow":              Resources["logic"],
 }
