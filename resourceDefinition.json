@@ -2241,5 +2241,16 @@
         "dashes": true,
         "lowercase": false,
         "regex": "\"[^0-9A-Za-z _.-]\""
+    },
+    {
+        "name": "azurerm_function_app",
+        "min_length": 2,
+        "max_length": 60,
+        "validation_regex": "\"^[a-zA-Z0-9 ][a-zA-Z0-9-._ ]{0,58}[a-zA-Z0-9_]$\"",
+        "scope": "parent",
+        "slug": "func",
+        "dashes": true,
+        "lowercase": false,
+        "regex": "\"[^0-9A-Za-z _.-]\""
     }
 ]

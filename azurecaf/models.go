@@ -96,6 +96,7 @@ var Resources = map[string]ResourceStructure{
 	"ase":    {"app service environment", "ase", 2, 36, false, alphanumh, "^[0-9A-Za-z-]{2,36}$", true, "resourceGroup"},
 	"asr":    {"azure site recovery", "asr", 2, 50, false, alphanumh, "^[a-zA-Z][0-9A-Za-z-]{1,49}$", true, "resourceGroup"},
 	"evh":    {"event hub", "evh", 1, 50, false, alphanumh, "^[a-zA-Z][0-9A-Za-z-]{0,48}[0-9a-zA-Z]$", true, "resourceGroup"},
+	"func":   {"function app", "func", 2, 60, false, alphanumh, "^[a-zA-Z][0-9A-Za-z-]{1,58}[0-9a-zA-Z]$", true, "resourceGroup"},
 	"gen":    {"generic", "gen", 1, 24, false, alphanum, "^[0-9a-zA-Z]{1,24}$", true, "resourceGroup"},
 	"kv":     {"keyvault", "kv", 3, 24, true, alphanumh, "^[a-zA-Z][0-9A-Za-z-]{0,22}[0-9a-zA-Z]$", true, "resourceGroup"},
 	"la":     {"loganalytics", "la", 4, 63, false, alphanumh, "^[0-9a-zA-Z][0-9A-Za-z-]{3,61}[0-9a-zA-Z]$", true, "resourceGroup"},
@@ -144,4 +145,5 @@ var ResourcesMapping = map[string]ResourceStructure{
 	"azurerm_windows_virtual_machine_linux":   Resources["vml"],
 	"azurerm_windows_virtual_machine_windows": Resources["vmw"],
 	"azurerm_virtual_network":                 Resources["vnet"],
+	"azurerm_function_app":                    Resources["func"],
 }
