@@ -2245,8 +2245,8 @@
     {
         "name": "azurerm_integration_service_environment",
         "min_length": 1,
-        "max_length": 260,
-        "validation_regex": "\"^[a-zA-Z0-9 ][a-zA-Z0-9-._ ]{0,258}[a-zA-Z0-9_]$\"",
+        "max_length": 80,
+        "validation_regex": "\"^[a-zA-Z0-9 ][a-zA-Z0-9-._ ]{0,78}[a-zA-Z0-9_]$\"",
         "scope": "parent",
         "slug": "ise",
         "dashes": true,
@@ -2255,8 +2255,8 @@
     },  {
         "name": "azurerm_logic_app_integration_account",
         "min_length": 1,
-        "max_length": 260,
-        "validation_regex": "\"^[a-zA-Z0-9 ][a-zA-Z0-9-._ ]{0,258}[a-zA-Z0-9_]$\"",
+        "max_length": 80,
+        "validation_regex": "\"^[a-zA-Z0-9 ][a-zA-Z0-9-._ ]{0,78}[a-zA-Z0-9_]$\"",
         "scope": "parent",
         "slug": "ia",
         "dashes": true,
@@ -2265,8 +2265,8 @@
     },  {
         "name": "azurerm_logic_app_workflow",
         "min_length": 1,
-        "max_length": 260,
-        "validation_regex": "\"^[a-zA-Z0-9 ][a-zA-Z0-9-._ ]{0,258}[a-zA-Z0-9_]$\"",
+        "max_length": 80,
+        "validation_regex": "\"^[a-zA-Z0-9 ][a-zA-Z0-9-._ ]{0,78}[a-zA-Z0-9_]$\"",
         "scope": "parent",
         "slug": "logic",
         "dashes": true,
