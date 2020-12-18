@@ -372,7 +372,7 @@ This is the current compreheensive status of the implemented resources in the pr
 |azurerm_hpc_cache_nfs_target | ❌ |
 |azurerm_image | ✔ |
 |azurerm_images | ❌ |
-|azurerm_integration_service_environment | ❌ |
+|azurerm_integration_service_environment | ✔ |
 |azurerm_iot_time_series_insights_access_policy | ❌ |
 |azurerm_iot_time_series_insights_reference_data_set | ❌ |
 |azurerm_iot_time_series_insights_standard_environment | ❌ |
@@ -432,11 +432,11 @@ This is the current compreheensive status of the implemented resources in the pr
 |azurerm_log_analytics_workspace | ✔ |
 |azurerm_logic_app_action_custom | ❌ |
 |azurerm_logic_app_action_http | ❌ |
-|azurerm_logic_app_integration_account | ❌ |
+|azurerm_logic_app_integration_account | ✔ |
 |azurerm_logic_app_trigger_custom | ❌ |
 |azurerm_logic_app_trigger_http_request | ❌ |
 |azurerm_logic_app_trigger_recurrence | ❌ |
-|azurerm_logic_app_workflow | ❌ |
+|azurerm_logic_app_workflow | ✔ |
 |azurerm_machine_learning_workspace | ✔ |
 |azurerm_maintenance_assignment_dedicated_host | ❌ |
 |azurerm_maintenance_assignment_virtual_machine | ❌ |
