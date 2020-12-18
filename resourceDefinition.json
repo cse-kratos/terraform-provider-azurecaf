@@ -2241,5 +2241,36 @@
         "dashes": true,
         "lowercase": false,
         "regex": "\"[^0-9A-Za-z _.-]\""
+    },
+    {
+        "name": "azurerm_integration_service_environment",
+        "min_length": 1,
+        "max_length": 80,
+        "validation_regex": "\"^[a-zA-Z0-9 ][a-zA-Z0-9-._ ]{0,78}[a-zA-Z0-9_]$\"",
+        "scope": "parent",
+        "slug": "ise",
+        "dashes": true,
+        "lowercase": false,
+        "regex": "\"[^0-9A-Za-z _.-]\""
+    },  {
+        "name": "azurerm_logic_app_integration_account",
+        "min_length": 1,
+        "max_length": 80,
+        "validation_regex": "\"^[a-zA-Z0-9 ][a-zA-Z0-9-._ ]{0,78}[a-zA-Z0-9_]$\"",
+        "scope": "parent",
+        "slug": "ia",
+        "dashes": true,
+        "lowercase": false,
+        "regex": "\"[^0-9A-Za-z _.-]\""
+    },  {
+        "name": "azurerm_logic_app_workflow",
+        "min_length": 1,
+        "max_length": 80,
+        "validation_regex": "\"^[a-zA-Z0-9 ][a-zA-Z0-9-._ ]{0,78}[a-zA-Z0-9_]$\"",
+        "scope": "parent",
+        "slug": "logic",
+        "dashes": true,
+        "lowercase": false,
+        "regex": "\"[^0-9A-Za-z _.-]\""
     }
 ]
